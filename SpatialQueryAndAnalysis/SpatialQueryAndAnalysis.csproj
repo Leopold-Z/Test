@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{189446A2-E2C2-41B9-A6B2-5F3CE69D4631}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpatialQueryAndAnalysis</RootNamespace>
+    <AssemblyName>MapControlApplication1</AssemblyName>
+    <ApplicationIcon>Earth.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.ADF, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86" />
+    <Reference Include="ESRI.ArcGIS.ADF.Connection, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86" />
+    <Reference Include="ESRI.ArcGIS.ADF.Connection.Core, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.ADF.Connection.Local, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86" />
+    <Reference Include="ESRI.ArcGIS.ADF.Core, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreatePointTool.cs" />
+    <Compile Include="AttributesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttributesForm.Designer.cs">
+      <DependentUpon>AttributesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClearCurrentTool.cs" />
+    <Compile Include="ClearFeatureSelection.cs" />
+    <Compile Include="ClearReferenceScaleCmd.cs" />
+    <Compile Include="CreateNewDocument.cs" />
+    <Compile Include="GetSymbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetSymbol.Designer.cs">
+      <DependentUpon>GetSymbol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayerAttributes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayerAttributes.Designer.cs">
+      <DependentUpon>LayerAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayerPropertiesCmd.cs" />
+    <Compile Include="LayerSelectable.cs" />
+    <Compile Include="LicenseInitializer.cs" />
+    <Compile Include="LicenseInitializer.Designer.cs">
+      <DependentUpon>LicenseInitializer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAttributeTableCmd.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refresh.cs" />
+    <Compile Include="RemoveLayerCmd.cs" />
+    <Compile Include="ScaleThreSholds.cs" />
+    <Compile Include="SelectByShapeTool.cs" />
+    <Compile Include="SetReferenceScaleCmd.cs" />
+    <Compile Include="TurnAllLayersOffCmd.cs" />
+    <Compile Include="TurnAllLayersOnCmd.cs" />
+    <Compile Include="ZoomIn3X.cs" />
+    <Compile Include="ZoomToLayerCmd.cs" />
+    <Compile Include="ZoomToReferenceScaleCmd.cs" />
+    <Compile Include="空间查询与空间分析\AttributeQueryCmd.cs" />
+    <Compile Include="空间查询与空间分析\BufferAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\BufferAnalysis.Designer.cs">
+      <DependentUpon>BufferAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\BufferAnalysisCmd.cs" />
+    <Compile Include="空间查询与空间分析\BufferQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\BufferQuery.Designer.cs">
+      <DependentUpon>BufferQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\BufferQueryCmd.cs" />
+    <Compile Include="空间查询与空间分析\CreateCircleTool.cs" />
+    <Compile Include="空间查询与空间分析\createPointTool .cs" />
+    <Compile Include="空间查询与空间分析\CreatePolygonTool.cs" />
+    <Compile Include="空间查询与空间分析\CreatePolylineTool.cs" />
+    <Compile Include="空间查询与空间分析\CreateRectangleTool.cs" />
+    <Compile Include="空间查询与空间分析\DeleteFeature.cs" />
+    <Compile Include="空间查询与空间分析\Distance2Points.cs" />
+    <Compile Include="空间查询与空间分析\DynamicAttributesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\DynamicAttributesReport.Designer.cs">
+      <DependentUpon>DynamicAttributesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\frmGeoReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\frmGeoReport.Designer.cs">
+      <DependentUpon>frmGeoReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\GPClip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\GPClip.designer.cs">
+      <DependentUpon>GPClip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\LayerDataToXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\LayerDataToXML.designer.cs">
+      <DependentUpon>LayerDataToXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\cmdClearAnalysisLayer.cs" />
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\cmdLoadLocations.cs" />
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\cmdNALayerProperties.cs" />
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\cmdNAProperties.cs" />
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\cmdRemoveLayer.cs" />
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\frmLoadLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\frmLoadLocation.Designer.cs">
+      <DependentUpon>frmLoadLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\frmNALayerProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\frmNALayerProperties.Designer.cs">
+      <DependentUpon>frmNALayerProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\frmNAProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\NetworkAnalyst\frmNAProperties.Designer.cs">
+      <DependentUpon>frmNAProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\OverlayAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\OverlayAnalysis.Designer.cs">
+      <DependentUpon>OverlayAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\OverlayAnalysisCmd.cs" />
+    <Compile Include="空间查询与空间分析\PolygonsDifference.cs" />
+    <Compile Include="空间查询与空间分析\QueryAdjacentFeatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\QueryAdjacentFeatures.Designer.cs">
+      <DependentUpon>QueryAdjacentFeatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\QueryDef实例.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\QueryDef实例.Designer.cs">
+      <DependentUpon>QueryDef实例.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\RdlGenerator.cs" />
+    <Compile Include="空间查询与空间分析\ReportDefinition.cs" />
+    <Compile Include="空间查询与空间分析\ReportOptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\ReportOptionDialog.designer.cs">
+      <DependentUpon>ReportOptionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\SelectAdjacentFeaturesCmd.cs" />
+    <Compile Include="空间查询与空间分析\SelectByAttribute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\SelectByAttribute.Designer.cs">
+      <DependentUpon>SelectByAttribute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\SpatialExtentQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\SpatialExtentQuery.Designer.cs">
+      <DependentUpon>SpatialExtentQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="空间查询与空间分析\SpatialExtentQueryCmd.cs" />
+    <Compile Include="空间查询与空间分析\TableRdlGenerator.cs" />
+    <Compile Include="空间查询与空间分析\TableSort实例.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="空间查询与空间分析\TableSort实例.Designer.cs">
+      <DependentUpon>TableSort实例.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AttributesForm.resx">
+      <DependentUpon>AttributesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetSymbol.resx">
+      <DependentUpon>GetSymbol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayerAttributes.resx">
+      <DependentUpon>LayerAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="空间查询与空间分析\BufferAnalysis.resx">
+      <DependentUpon>BufferAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\BufferQuery.resx">
+      <DependentUpon>BufferQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\DynamicAttributesReport.resx">
+      <DependentUpon>DynamicAttributesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\frmGeoReport.resx">
+      <DependentUpon>frmGeoReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\GPClip.resx">
+      <DependentUpon>GPClip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\LayerDataToXML.resx">
+      <DependentUpon>LayerDataToXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\NetworkAnalyst\frmLoadLocation.resx">
+      <DependentUpon>frmLoadLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\NetworkAnalyst\frmNALayerProperties.resx">
+      <DependentUpon>frmNALayerProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\NetworkAnalyst\frmNAProperties.resx">
+      <DependentUpon>frmNAProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\OverlayAnalysis.resx">
+      <DependentUpon>OverlayAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\QueryAdjacentFeatures.resx">
+      <DependentUpon>QueryAdjacentFeatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\QueryDef实例.resx">
+      <DependentUpon>QueryDef实例.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\ReportOptionDialog.resx">
+      <DependentUpon>ReportOptionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\SelectByAttribute.resx">
+      <DependentUpon>SelectByAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\SpatialExtentQuery.resx">
+      <DependentUpon>SpatialExtentQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="空间查询与空间分析\TableSort实例.resx">
+      <DependentUpon>TableSort实例.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="空间查询与空间分析\CreateCircleTool.bmp" />
+    <Content Include="空间查询与空间分析\CreateCircleTool.cur" />
+    <Content Include="空间查询与空间分析\CreatePointTool .bmp" />
+    <Content Include="空间查询与空间分析\CreatePointTool .cur" />
+    <Content Include="空间查询与空间分析\CreatePolygonTool.bmp" />
+    <Content Include="空间查询与空间分析\CreatePolygonTool.cur" />
+    <Content Include="空间查询与空间分析\CreatePolylineTool.bmp" />
+    <Content Include="空间查询与空间分析\CreatePolylineTool.cur" />
+    <Content Include="空间查询与空间分析\CreateRectangleTool.bmp" />
+    <Content Include="空间查询与空间分析\CreateRectangleTool.cur" />
+    <EmbeddedResource Include="空间查询与空间分析\Distance2Points.cur" />
+    <EmbeddedResource Include="空间查询与空间分析\Distance2Points.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\PolygonsDifference.cur" />
+    <EmbeddedResource Include="空间查询与空间分析\PolygonsDifference.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\DeleteFeature.cur" />
+    <EmbeddedResource Include="空间查询与空间分析\DeleteFeature.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\OverlayAnalysisCmd.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\BufferAnalysisCmd.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\SelectAdjacentFeaturesCmd.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\BufferQueryCmd.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\SpatialExtentQueryCmd.bmp" />
+    <EmbeddedResource Include="空间查询与空间分析\AttributeQueryCmd.bmp" />
+    <Content Include="App.ico" />
+    <EmbeddedResource Include="Refresh.bmp" />
+    <EmbeddedResource Include="ZoomIn3X.bmp" />
+    <EmbeddedResource Include="SelectByShapeTool.cur" />
+    <EmbeddedResource Include="SelectByShapeTool.bmp" />
+    <EmbeddedResource Include="ZoomToReferenceScaleCmd.bmp" />
+    <EmbeddedResource Include="ClearReferenceScaleCmd.bmp" />
+    <EmbeddedResource Include="CreateNewDocument.bmp" />
+    <EmbeddedResource Include="ClearFeatureSelection.bmp" />
+    <EmbeddedResource Include="ClearCurrentTool.bmp" />
+    <EmbeddedResource Include="CreatePointTool.bmp" />
+    <EmbeddedResource Include="CreatePointTool.cur" />
+    <Content Include="Earth.ico" />
+    <EmbeddedResource Include="SetReferenceScaleCmd.bmp" />
+    <EmbeddedResource Include="TurnAllLayersOffCmd.bmp" />
+    <EmbeddedResource Include="TurnAllLayersOnCmd.bmp" />
+    <EmbeddedResource Include="LayerPropertiesCmd.bmp" />
+    <EmbeddedResource Include="ZoomToLayerCmd.bmp" />
+    <EmbeddedResource Include="RemoveLayerCmd.bmp" />
+    <EmbeddedResource Include="OpenAttributeTableCmd.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="esri3DAnalyst">
+      <Guid>{639FE90A-CC9A-48C6-AC1D-105FE50915B5}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esri3DAnalystUI">
+      <Guid>{6F3EBEF8-D39D-11D2-B1F5-00C04FA33D14}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriAnimation">
+      <Guid>{643D491A-D5BD-4788-B610-A0F53CBA0940}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriAnimationUI">
+      <Guid>{C4166ECD-BD76-4423-B1B6-91F753D4EC9A}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriArcCatalog">
+      <Guid>{CE77DEC0-FA30-4391-A5CD-86634BBFA7B2}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriArcCatalogUI">
+      <Guid>{ED18C81D-E028-4F2A-8745-B6A5D0C6952B}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriArcGlobe">
+      <Guid>{6BB832F1-995C-4426-9BC1-DBD7B2D22622}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriArcMap">
+      <Guid>{AA603763-259A-11D3-9F4A-00C04F6BC621}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriArcMapUI">
+      <Guid>{40499F24-596F-45D2-ACE1-A251E2990017}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriArcScan">
+      <Guid>{85A385F8-E07F-43B8-8BC2-E3593B9FC3F3}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriArcScene">
+      <Guid>{05069B08-1EC8-4B7F-91AA-1D5225154A72}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCadastral">
+      <Guid>{258BE403-B339-4D41-8F4B-B5819D0665E0}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCadastralUI">
+      <Guid>{25AD730C-DDF7-474D-9BA7-6D7703E07DAE}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCarto">
+      <Guid>{45AC68FF-DEFF-4884-B3A9-7D882EDCAEF1}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCartoUI">
+      <Guid>{D92377DC-FAB1-4DFB-A4C1-61BD8C40DBEB}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCartoX">
+      <Guid>{49073797-DA45-4608-86DA-AB9A6025F677}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCartoXUI">
+      <Guid>{1992F929-4957-421A-BE0F-2564130199BD}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCatalog">
+      <Guid>{ADC7DE29-DC0B-448E-BBF6-27E4E34CF2EC}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriCatalogUI">
+      <Guid>{C0FC1503-7E6F-11D2-AABF-00C04FA375F1}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriControls">
+      <Guid>{033364CA-47F9-4251-98A5-C88CD8D3C808}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataInterop">
+      <Guid>{41B7916F-7BEC-4210-A49D-1181EF1ACFB3}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataInteropUI">
+      <Guid>{86AF4F53-135B-4896-AFB9-5451DA1B1E10}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataSourcesFile">
+      <Guid>{1CE6AC65-43F5-4529-8FC0-D7ED298E4F1A}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataSourcesGDB">
+      <Guid>{4A037613-879A-484D-AF82-0802947C627B}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataSourcesNetCDF">
+      <Guid>{28ED84CD-FB06-41A0-9A55-E196441D169A}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataSourcesOleDB">
+      <Guid>{04E2822F-C3AE-4FA9-B19B-3512C98F97FB}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataSourcesRaster">
+      <Guid>{8F0541A3-D5BE-4B3F-A8D9-062D5579E19B}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDataSourcesRasterUI">
+      <Guid>{8F0F4190-51B8-4D1D-B598-849456670248}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDisplay">
+      <Guid>{59FCCD31-434C-4017-BDEF-DB4B7EDC9CE0}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriDisplayUI">
+      <Guid>{016DF9D3-7E81-11D2-A2D1-0000F8774FB5}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriEditor">
+      <Guid>{4C896230-7F1A-11D2-8509-0000F875B9C6}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriEditorExt">
+      <Guid>{52AE85C8-0A79-490E-A5E0-EAE86D8ACA6B}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriEngineCore">
+      <Guid>{BCF05F76-DEB0-4FB7-8D7C-B9DAF6EDE6DD}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriFramework">
+      <Guid>{866AE5D3-530C-11D2-A2BD-0000F8774FB5}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeneralization">
+      <Guid>{F453EAFB-CB1E-47B0-9D5A-C0C82CDDE588}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoAnalyst">
+      <Guid>{5C54042B-B2ED-4889-8C40-2D89C19DB41D}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoDatabase">
+      <Guid>{0475BDB1-E5B2-4CA2-9127-B4B1683E70C2}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoDatabaseDistributed">
+      <Guid>{A7C74158-1062-4664-B404-8694D490FCD1}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoDatabaseDistributedUI">
+      <Guid>{90F28035-50D8-41A8-9B1C-8D14EE115EA8}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoDatabaseExtensions">
+      <Guid>{7BA654FE-F55E-4EE5-8CF2-FAEFFBC04A61}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoDatabasePS">
+      <Guid>{69512848-B1D3-4D8F-8631-9A4B756C8E54}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoDatabaseUI">
+      <Guid>{4A9C9ED7-F7DB-4614-B480-A5D265C961FC}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeometry">
+      <Guid>{C4B094C2-FF32-4FA1-ABCB-7820F8D6FB68}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoprocessing">
+      <Guid>{C031A050-82C6-4F8F-8836-5692631CFFE6}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoprocessingUI">
+      <Guid>{70CB3DE8-6285-4BC5-A0A3-F71EFCBD60B5}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoReferenceUI">
+      <Guid>{31FB596E-D0E8-4736-864F-87295B15B736}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoStatisticalAnalyst">
+      <Guid>{0628CA67-C14B-4A0C-A5BE-6265C06258E8}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoStatisticalAnalystUI">
+      <Guid>{E3AB636F-179C-41AE-AD09-AE965A79CCC1}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGeoSurvey">
+      <Guid>{65376B1F-0CC4-4AF1-8A7A-1C2321AA9CAD}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGISClient">
+      <Guid>{746F6817-89BB-4490-9829-83CA25FD505A}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGlobeCore">
+      <Guid>{00B329B5-265E-11D6-B2B4-00508BCDDE28}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGlobeCoreUI">
+      <Guid>{BC42563C-A80E-49A2-B070-CDE6A3285D60}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGraphicsCore">
+      <Guid>{36A362E4-E848-4A8C-980E-AD42E5E099C5}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriGraphicsSymbols">
+      <Guid>{7E525645-57C6-4FD0-9BA9-137C9343A78F}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriLocation">
+      <Guid>{6B45C696-3C30-4268-A58B-D9F32D80023C}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriLocationUI">
+      <Guid>{E06BEA6B-FF83-11D3-9F79-00C04F8ED1C4}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriMaplex">
+      <Guid>{AEE93E77-D204-4E9F-8CF8-5C90EC49F424}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriNetworkAnalysis">
+      <Guid>{9D130258-C75F-41EF-892A-692B073E1AAC}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriNetworkAnalyst">
+      <Guid>{9B4F73F7-90C0-11D5-A6C3-0008C7DF88AB}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriNetworkAnalystUI">
+      <Guid>{10DEE54B-98B4-4CBE-BC2B-6FDD12135D73}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriOutput">
+      <Guid>{7DB92CEC-CB65-420A-8737-FCD0722FD436}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriOutputExtensions">
+      <Guid>{2231A0FB-E2BE-46F5-B9A6-D149D455DE45}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriOutputExtensionsUI">
+      <Guid>{A584791C-6307-466A-87F2-18EC8F856E46}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriOutputUI">
+      <Guid>{AE064D40-D6CE-11D0-867A-0000F8751720}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriPrintSharedOutput">
+      <Guid>{BF13098D-1A1C-4900-A8E2-E77B89627371}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriPublisher">
+      <Guid>{3C938D89-3265-4F76-A5BE-C37C74A9FBC9}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriPublisherControls">
+      <Guid>{FBB2DAD5-39B5-464C-8351-A0499BE62DC5}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriPublisherUI">
+      <Guid>{8093008E-CA27-43A1-8BE9-ABB5760298C4}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSceneViewerCtrl">
+      <Guid>{03485A85-59D0-11D3-8172-0080C7597E71}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSchematic">
+      <Guid>{9B334CD1-D75F-11D4-8262-00500487CC1A}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSchematicControls">
+      <Guid>{2CD0725B-2377-4F50-82D8-A329DFA63461}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSchematicUI">
+      <Guid>{F21B00A8-0DD8-4857-9A27-88AAE7B5E07F}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSearch">
+      <Guid>{E418C392-C3A6-4EB2-8870-001ABAE6B5B4}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriServer">
+      <Guid>{18F2FC71-6B30-45B9-B101-037A8B868B66}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSpatialAnalyst">
+      <Guid>{62922975-992A-4C4F-BD20-F7F7113A9299}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSpatialAnalystUI">
+      <Guid>{D5FB57C1-ACDB-11D2-9F3A-00C04F8ED1D7}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSystem">
+      <Guid>{5E1F7BC3-67C5-4AEE-8EC6-C4B73AAC42ED}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriSystemUI">
+      <Guid>{4ECCA6E2-B16B-4ACA-BD17-E74CAE4C150A}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriTrackingAnalyst">
+      <Guid>{3FB4CF5F-7A80-4657-A7DB-3A8216DA5287}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="esriTrackingAnalystUI">
+      <Guid>{153F4A96-7C40-11D7-B877-00010265ADC5}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="GridTableCtrls">
+      <Guid>{97465252-2ABB-4AA2-8434-B2EA558A1670}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole1">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole10">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole11">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole12">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole13">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole14">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole15">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole16">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole17">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole2">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole3">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole4">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole5">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole6">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole7">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole8">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole9">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="UICONTROLSLib">
+      <Guid>{77E512AB-FD7D-11D2-9F44-00C04F6BC61A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

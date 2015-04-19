@@ -1,0 +1,98 @@
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\bin\Debug\MapControlApplication1.exe
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\bin\Debug\MapControlApplication1.pdb
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.AttributesForm.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.GetSymbol.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.AttributesContextMenu.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.MainForm.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据符号化.BrowseStyleSymbols.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据符号化.ClassBreaksRendererSymbol.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据符号化.ColorRampForm.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据符号化.DotDensitySymbols.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据符号化.GetSymbolByControl.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据符号化.GraduatedColorSymbols.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.GraduatedSymbols.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间参考.LayerDataToXML.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.MatchFieldValue2Symbol.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.ProportionalSymbols.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间参考.ReportOptionDialog.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.SelectSymbolByControl .resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.SingleSymbol.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.StatisticsSymbols.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.SymbolizationByLayerPropPage.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.UniqueValuesSymbol.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间数据的可视化.地图标注.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.BufferAnalysis.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.BufferQuery.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.DynamicAttributesReport.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.frmGeoReport.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.frmLoadLocations.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.frmNALayerProperties.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.OverlayAnalysis.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.QueryAdjacentFeatures.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.SelectByAttribute.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.SpatialExtentQuery.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.鹰眼.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\MapControlApplication1.exe
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\GIS功能-最终\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\MapControlApplication1.pdb
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\MapControlApplication1.exe
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\MapControlApplication1.pdb
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\bin\Debug\MapControlApplication1.exe
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\bin\Debug\MapControlApplication1.pdb
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.AttributesForm.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.GetSymbol.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.AttributesContextMenu.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.MainForm.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.BufferAnalysis.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.BufferQuery.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.DynamicAttributesReport.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.frmGeoReport.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.frmLoadLocations.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.OverlayAnalysis.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.QueryAdjacentFeatures.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.SelectByAttribute.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.SpatialExtentQuery.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.鹰眼.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.QueryDef实例.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.TableSort实例.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.GPClip.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.LayerDataToXML.resources
+C:\Documents and Settings\Administrator\桌面\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.ReportOptionDialog.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\MapControlApplication1.exe
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\MapControlApplication1.pdb
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\bin\Debug\MapControlApplication1.exe
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\bin\Debug\MapControlApplication1.pdb
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.AttributesForm.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.GetSymbol.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.AttributesContextMenu.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.MainForm.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.Properties.Resources.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.BufferAnalysis.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.BufferQuery.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.DynamicAttributesReport.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.frmGeoReport.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.GPClip.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.LayerDataToXML.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.NetworkAnalyst.frmLoadLocation.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.NetworkAnalyst.frmNALayerProperties.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.NetworkAnalyst.frmNAProperties.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.OverlayAnalysis.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.QueryAdjacentFeatures.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.QueryDef实例.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.ReportOptionDialog.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.SelectByAttribute.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.SpatialExtentQuery.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GIS.空间查询与空间分析.TableSort实例.resources
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Users\zhangguofeng\Desktop\不要删-GIS\LAST EDIT\空间查询与空间分析\MapControlApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog

@@ -1,0 +1,92 @@
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.exe
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.pdb
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\bin\Debug\MapControlApplication1.exe
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\bin\Debug\MapControlApplication1.pdb
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.AttributesForm.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.GetSymbol.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.AttributesContextMenu.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.MainForm.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.Properties.Resources.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.BufferAnalysis.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.BufferQuery.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.DynamicAttributesReport.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.frmGeoReport.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.GPClip.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.LayerDataToXML.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmLoadLocation.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmNALayerProperties.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmNAProperties.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.OverlayAnalysis.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.QueryAdjacentFeatures.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.QueryDef实例.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.ReportOptionDialog.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.SelectByAttribute.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.SpatialExtentQuery.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.TableSort实例.resources
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\gis应用开发\New\ArcObjects 应用开发源代码\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.exe
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.pdb
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\bin\Debug\MapControlApplication1.exe
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\bin\Debug\MapControlApplication1.pdb
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.AttributesForm.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.GetSymbol.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.AttributesContextMenu.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.MainForm.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.Properties.Resources.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.BufferAnalysis.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.BufferQuery.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.DynamicAttributesReport.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.frmGeoReport.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.GPClip.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.LayerDataToXML.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmLoadLocation.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmNALayerProperties.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmNAProperties.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.OverlayAnalysis.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.QueryAdjacentFeatures.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.QueryDef实例.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.ReportOptionDialog.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.SelectByAttribute.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.SpatialExtentQuery.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.TableSort实例.resources
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+F:\GISApplicationDeveloping\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.exe
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.pdb
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.csprojResolveAssemblyReference.cache
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.AttributesForm.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.GetSymbol.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.AttributesContextMenu.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.MainForm.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.Properties.Resources.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.BufferAnalysis.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.BufferQuery.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.DynamicAttributesReport.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.frmGeoReport.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.GPClip.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.LayerDataToXML.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmLoadLocation.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmNALayerProperties.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.NetworkAnalyst.frmNAProperties.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.OverlayAnalysis.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.QueryAdjacentFeatures.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.QueryDef实例.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.ReportOptionDialog.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.SelectByAttribute.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.SpatialExtentQuery.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.空间查询与空间分析.TableSort实例.resources
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.csproj.GenerateResource.Cache
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\bin\Debug\MapControlApplication1.exe
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\bin\Debug\MapControlApplication1.pdb
+G:\Downloads\DevelopingGISApp\DevelopingGISApp\SourceCodes\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\bin\Debug\ESRI.ArcGIS.Desktop.AddIns.dll
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.exe
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\MapControlApplication1.pdb
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\SpatialQueryAndAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\Interop.esriCartoXUI.dll
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\Interop.esriGeneralization.dll
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\Interop.esriGeoDatabasePS.dll
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\Interop.esriGraphicsCore.dll
+C:\Users\Leopold\Desktop\Chap.09--空间查询与空间分析\SpatialQueryAndAnalysis\obj\x86\Debug\Interop.esriGraphicsSymbols.dll
